@@ -1,0 +1,1 @@
+taskset -c 0 ./code_write -t 0 -m $1

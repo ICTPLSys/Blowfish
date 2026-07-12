@@ -1,0 +1,4 @@
+# Out-of-tree build: ignore generated files; track preset kernel .config and this file.
+*
+!.gitignore
+!.config

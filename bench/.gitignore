@@ -1,0 +1,17 @@
+/.vscode/
+__pycache__/
+*.pyc
+/venv/
+/.venv/
+*.egg-info/
+.direnv/
+
+# Keep directories in repo via .gitkeep; ignore all other contents
+/results/*
+!/results/.gitkeep
+/resources/*
+!/resources/.gitkeep
+/*/results/
+/*/latest/**/out*.txt
+/*/latest/**/boot*.txt
+/*/latest/**/*log.txt
